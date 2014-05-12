@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><yahoo: error xmlns: yahoo="http://www.yahooapis.com/v1/base.rng" yahoo: uri="http://yahoo.com" xml: lang="en-US"><yahoo: description>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;,
+ realm=&quot;yahooapis.com&quot;</yahoo: description><yahoo: detail>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;,
+  realm=&quot;yahooapis.com&quot;</yahoo: detail></yahoo: error>
+

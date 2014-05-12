@@ -1,0 +1,88 @@
+body {
+	background: #eee;
+	font-family: "arial", sans-serif;
+}
+.head{
+	position: fixed;
+	right:10px;
+}
+ol, ul { 
+	list-style: none outside none;
+}
+
+div.screenMask {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #000000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	display: none;
+}
+div.screenMask2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #000000;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	display: none;
+}
+
+nav[role="navigation"] li {
+
+	float: left;
+
+	font-size: 14px;
+
+	border-right: 1px solid #ddd;
+
+}
+
+nav[role="navigation"] li:last-child {
+
+	border-right: none;
+
+}
+
+nav[role="navigation"] li a {
+
+	float: left;
+
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #999;
+
+	border-radius: 4px;
+
+}
+
+nav[role="navigation"] li a:hover,
+
+nav[role="navigation"] li a:focus {
+
+	color: #333;
+
+}
+
+nav[role="navigation"] li a:active {
+
+	color: #666;
+
+}
+
+nav[role="navigation"] li.active a {
+
+	font-weight: bold;
+
+	color: #333;
+
+}		

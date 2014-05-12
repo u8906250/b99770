@@ -1,0 +1,44 @@
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	background-color:#f0f0f0;
+	background-image:-moz-radial-gradient(circle closest-corner, #fff 0%, #ddd 100%);
+	background-image:-o-radial-gradient(circle closest-corner, #fff 0%, #ddd 100%);
+	background-image:-webkit-radial-gradient(circle closest-corner, #fff 0%, #ddd 100%);
+	background-image:radial-gradient(circle closest-corner, #fff 0%, #ddd 100%);
+}
+body {
+	font:14px/1.3 'Segoe UI', Arial, sans-serif;
+	color:#888;
+	padding:10px;
+}
+img.login {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+#ylogin {
+	margin-top:200px;
+}
+
+
+header {
+	display:block;
+}
+h1 {
+	height:50px;
+	text-indent:-99999px;
+	overflow:hidden;
+	margin:150px auto 60px;
+	text-align:center;
+}
+h2 {
+	font-size: 17px;
+	font-style: italic;
+	font-weight: normal;
+	left: 27px;
+	position: absolute;
+	top: 36px;
+}

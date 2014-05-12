@@ -1,0 +1,1843 @@
+[07-May-2013 05:32:15 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 05:32:18 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 05:40:37 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:06:46 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:06:46 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:06:46 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a5fc571ff9e9cb3a75727eae580e594d&oauth_signature=dVByqoGliai5N8lGBeukJ6j3DLo%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a5fc571ff9e9cb3a75727eae580e594d&oauth_signature=dVByqoGliai5N8lGBeukJ6j3DLo%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1391,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.265549,
+  'namelookup_time' => 0.000929,
+  'connect_time' => 0.048908,
+  'pretransfer_time' => 0.048995,
+  'size_upload' => 0,
+  'size_download' => 285,
+  'speed_download' => 1073,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.265257,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46054,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a5fc571ff9e9cb3a75727eae580e594d&oauth_signature=dVByqoGliai5N8lGBeukJ6j3DLo%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:06:46Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:06:46Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine9.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:06:46 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine9.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:06:46 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:06:46 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:06:46 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=40389440c6b1d7735dc6c5a7d39c7e1f&oauth_signature=6%2B7wIf1QvFLHFx88J3hIGzb%2BFvI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=40389440c6b1d7735dc6c5a7d39c7e1f&oauth_signature=6%2B7wIf1QvFLHFx88J3hIGzb%2BFvI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1410,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.338477,
+  'namelookup_time' => 3.7E-5,
+  'connect_time' => 0.047341,
+  'pretransfer_time' => 0.047422,
+  'size_upload' => 0,
+  'size_download' => 106,
+  'speed_download' => 313,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.337412,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46056,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=40389440c6b1d7735dc6c5a7d39c7e1f&oauth_signature=6%2B7wIf1QvFLHFx88J3hIGzb%2BFvI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:06:46Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine9.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:06:46 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine9.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:06:46 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:06:46 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:06:47 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=4e89217fc2c51064b5df3db89037f9bb&oauth_signature=mUOxu9uoe6K%2FznAX%2F9jBhuf7hLg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=4e89217fc2c51064b5df3db89037f9bb&oauth_signature=mUOxu9uoe6K%2FznAX%2F9jBhuf7hLg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1419,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.221069,
+  'namelookup_time' => 3.0E-5,
+  'connect_time' => 0.04733,
+  'pretransfer_time' => 0.047378,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 474,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.219991,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46059,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=4e89217fc2c51064b5df3db89037f9bb&oauth_signature=mUOxu9uoe6K%2FznAX%2F9jBhuf7hLg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932006&oauth_token=A%3DGnYhG2X85AjSOLvBSx62Ti60p7AvokS6GcfQoZuoBEKOa1g5NlWI38CI5NaRBx_SWTLERy9dCdpeq3WfxSxy7v3GpMOebac0Z84TGLfHQ7Pirwkso1TykvVu.HTh4nVzPpmB5_OFhihwv_g2glcXaGk6ROIm5KoCcl9ZmZdmBLkk30JRMeWsQolgub6ZxLin.4E18BuMnTzw18MHMLVvdT.Qq.dsIkQPy0a.sGFkbIaWWXE0BUda9L8EFsHhwJ2I2UKlKnMOPYAyY07ubxWilKm7CyHokT92CYzcZLlFV1GSZcIrF2fnEFtd5wjNaQ75wkq5W0.7RXh8wuBRNN5Ia58RAZUjrryaYkKCpuCub.RD6TXUaYAbwvXvdHXGpxJLFvT_rrf_vnXu2EjtGNBMYIxsWM8NkkXeFbCR84BlrDvloT0chnwz.2Hx.nLj7i6oYd71pnWsB5RgaK7ZD5gMKmkFHCfy0fopx2gyzqbmpeeYGvUlliK2X54QoJd8klZxdAR1.DH9QjSbYtSpKj.qNq7N1rv24HAvh9wxWpfuQDzFAPTBUMAq14poVK7ipdYzOaPDNu9Vqa0z3UntkTlOe.nQU1pZ0H9D34kV9BXszgv0wdwHDsnhrNpM30qlxa3tbaunQCQx9P1RARmjfiF6DF1L0N.dkghIyYRSu3Cx8WOOrP3wAaJpKAM1BzND2DKGFLCFcof1nhJpA.iu_qF0Y2FOscQsfV9GSZcrub7CB.Y3Td8u5Oq.PhUqm0efVIu531sBD3wCzmLj&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:06:47Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine3.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:06:46 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine3.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:06:46 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 167
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 168
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 172
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:06:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 191
+[07-May-2013 06:07:01 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:01 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:04 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:05 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:09 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:09 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:10 America/Los_Angeles] Fetching https://api.login.yahoo.com/oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=02900b1de2163ab12615543d11c5c608&oauth_signature=KqQN4c8zI%2BhoOY3vRDJQIla7fUE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932029&oauth_token=.IXh16Ju3AaQtDk6Ouj.jHDU_mjdAXSu3RmT0kOGtCL5WXT5oQHuKeRcyAhrVXvcesouvwGU21zIxONo._8FKlcWHfVE_e.lZcf93VhBHMJETfuLgUDZdUAqumOwtBq.yRBRo.q.81w6WdXwz6dpTHJ626hLTjnff34vLWIM0.iRhWsqyJmC2UItu0u_p8NAsbczf1a5Hya3wn90bN81zIJZtK2X4F62&oauth_version=1.0, method=GET, headers=array (
+), response=array (
+  'url' => 'https://api.login.yahoo.com/oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=02900b1de2163ab12615543d11c5c608&oauth_signature=KqQN4c8zI%2BhoOY3vRDJQIla7fUE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932029&oauth_token=.IXh16Ju3AaQtDk6Ouj.jHDU_mjdAXSu3RmT0kOGtCL5WXT5oQHuKeRcyAhrVXvcesouvwGU21zIxONo._8FKlcWHfVE_e.lZcf93VhBHMJETfuLgUDZdUAqumOwtBq.yRBRo.q.81w6WdXwz6dpTHJ626hLTjnff34vLWIM0.iRhWsqyJmC2UItu0u_p8NAsbczf1a5Hya3wn90bN81zIJZtK2X4F62&oauth_version=1.0',
+  'content_type' => 'text/plain; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 407,
+  'request_size' => 696,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.546443,
+  'namelookup_time' => 0.019525,
+  'connect_time' => 0.103486,
+  'pretransfer_time' => 0.296739,
+  'size_upload' => 0,
+  'size_download' => 1034,
+  'speed_download' => 1892,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.546278,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.250.93',
+  'primary_port' => 443,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 39467,
+  'redirect_url' => '',
+  'request_header' => 'GET /oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=02900b1de2163ab12615543d11c5c608&oauth_signature=KqQN4c8zI%2BhoOY3vRDJQIla7fUE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932029&oauth_token=.IXh16Ju3AaQtDk6Ouj.jHDU_mjdAXSu3RmT0kOGtCL5WXT5oQHuKeRcyAhrVXvcesouvwGU21zIxONo._8FKlcWHfVE_e.lZcf93VhBHMJETfuLgUDZdUAqumOwtBq.yRBRo.q.81w6WdXwz6dpTHJ626hLTjnff34vLWIM0.iRhWsqyJmC2UItu0u_p8NAsbczf1a5Hya3wn90bN81zIJZtK2X4F62&oauth_version=1.0 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: api.login.yahoo.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => 'oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_token_secret=70222bab814cb6282e9f63064709a1bd92ffbb3c&oauth_expires_in=3600&oauth_session_handle=AC37iFH1iQBpuE7rfI_Mav19jZh_j1jfQT7Vz1bYoFpZP74-&oauth_authorization_expires_in=779551618&xoauth_yahoo_guid=37VOXLAWPDYLZ3N3D4ICUVUTDE',
+  'response_header' => 'HTTP/1.1 200 OK
+Date: Tue, 07 May 2013 13:07:09 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/plain; charset=utf-8
+Cache-Control: private',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'Date' => 'Tue, 07 May 2013 13:07:09 GMT',
+    'P3P' => 'policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"',
+    'Vary' => 'Accept-Encoding',
+    'Connection' => 'close',
+    'Transfer-Encoding' => 'chunked',
+    'Content-Type' => 'text/plain; charset=utf-8',
+    'Cache-Control' => 'private',
+  ),
+)
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:10 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0e5c1678338c598336442099e5e06ec2&oauth_signature=AII9feGy%2FJAUnasg0SGt2pGjrfk%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0e5c1678338c598336442099e5e06ec2&oauth_signature=AII9feGy%2FJAUnasg0SGt2pGjrfk%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1393,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.255901,
+  'namelookup_time' => 0.012485,
+  'connect_time' => 0.060156,
+  'pretransfer_time' => 0.060289,
+  'size_upload' => 0,
+  'size_download' => 286,
+  'speed_download' => 1117,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.25571,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46242,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0e5c1678338c598336442099e5e06ec2&oauth_signature=AII9feGy%2FJAUnasg0SGt2pGjrfk%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:07:10Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:07:10Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine5.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:09 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine5.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:09 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:10 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a298ad01299a79b9baa94721ad50170b&oauth_signature=lWlTxXxiCZLgfMFTZ9aILtCh88Y%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a298ad01299a79b9baa94721ad50170b&oauth_signature=lWlTxXxiCZLgfMFTZ9aILtCh88Y%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1406,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.312346,
+  'namelookup_time' => 3.4E-5,
+  'connect_time' => 0.047611,
+  'pretransfer_time' => 0.047716,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 336,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.312195,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46245,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=a298ad01299a79b9baa94721ad50170b&oauth_signature=lWlTxXxiCZLgfMFTZ9aILtCh88Y%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:07:10Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:10 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:10 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:10 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=ada337804dbc836d0c8d3b639c66bb23&oauth_signature=qQHa7ZXPAJa3yZEQiepJmjYyk1s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=ada337804dbc836d0c8d3b639c66bb23&oauth_signature=qQHa7ZXPAJa3yZEQiepJmjYyk1s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1415,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.213692,
+  'namelookup_time' => 3.4E-5,
+  'connect_time' => 0.04763,
+  'pretransfer_time' => 0.04771,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 491,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.213561,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46247,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=ada337804dbc836d0c8d3b639c66bb23&oauth_signature=qQHa7ZXPAJa3yZEQiepJmjYyk1s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932030&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:07:10Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine8.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:10 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine8.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:10 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 167
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 168
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 172
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:07:10 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 191
+[07-May-2013 06:07:11 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:07:11 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:11 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=28dfea97e751fec4f052bfea35c0ea4d&oauth_signature=gfWdJJdVmRWQWtEnjtkfQdzrsn0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=28dfea97e751fec4f052bfea35c0ea4d&oauth_signature=gfWdJJdVmRWQWtEnjtkfQdzrsn0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1391,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.264517,
+  'namelookup_time' => 0.001029,
+  'connect_time' => 0.049374,
+  'pretransfer_time' => 0.049489,
+  'size_upload' => 0,
+  'size_download' => 287,
+  'speed_download' => 1084,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.264226,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46252,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=28dfea97e751fec4f052bfea35c0ea4d&oauth_signature=gfWdJJdVmRWQWtEnjtkfQdzrsn0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:07:11Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:07:11Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine9.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:10 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine9.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:10 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:11 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:11 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=220223b3538f6b83fec6c55ce913579e&oauth_signature=9%2BTHFWXKa%2F0gtZQfWTAGQZhwwpM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=220223b3538f6b83fec6c55ce913579e&oauth_signature=9%2BTHFWXKa%2F0gtZQfWTAGQZhwwpM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1410,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.383156,
+  'namelookup_time' => 4.2E-5,
+  'connect_time' => 0.047597,
+  'pretransfer_time' => 0.047657,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 274,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.383003,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46254,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=220223b3538f6b83fec6c55ce913579e&oauth_signature=9%2BTHFWXKa%2F0gtZQfWTAGQZhwwpM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:07:11Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:11 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:11 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:11 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:07:12 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=9354ab68fb5c3d45c63ff6d0bb5e3aee&oauth_signature=2jSOKy4eGYWuTvvc%2BiZn9baEGZY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=9354ab68fb5c3d45c63ff6d0bb5e3aee&oauth_signature=2jSOKy4eGYWuTvvc%2BiZn9baEGZY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1417,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.223479,
+  'namelookup_time' => 2.9E-5,
+  'connect_time' => 0.048319,
+  'pretransfer_time' => 0.048375,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 469,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.222524,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 46256,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=9354ab68fb5c3d45c63ff6d0bb5e3aee&oauth_signature=2jSOKy4eGYWuTvvc%2BiZn9baEGZY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932031&oauth_token=A%3DE8WpBivDhFstEaMKtPitO6qOO2dM02sad_tdcYBer38UBZBZSfLJJOhiH4OuP6oKi9iNMRRgbEmtBbWfBtM.PJa4wd43konmeozMiG1htZKlOxOzz7CY1XIJAZaEqn1iBM6e.PdbKPlsJgG31C8eBrNTpXoyXfyrDOmwsyQHvUAJjnUYycZ.WDDG0zoNW6.S4tnQQHVmBy4PtRkqL8mly2UDuf.Ho5oV5KuQTm3uTuiCmOmPXu0LH.kPqXJdsN3gXgHgDUK.dzTt8GB19gYwmFMmMs5ceMs56mDb9boslEUoU0DxTYsbAVU6vu3BcEGlALUXDXiJFgWCyl1AEtAZV2vr7y1iCwAuDof8hqr2ejYdOrpUfBx72qABIRx_SsqA_qma50O1oGy9Qz1zidToUYPmdfE.rfNfsVE1X87FpaC5APA2vXvCvfNs7plkxp8cVGTev7nGeDirO3Si_mOLOl0S.0YT48LwWFMKTjhtN6yIwOqW6BBDmG5S4D.FtWJBCjiSAIxntQ926nmgYl9gfIb62heY_r5HWOFAUfmBxa8Kp4ON1uMNWm9I.VXnQOxjipm7YNQ9RME7aW1h5h1SUwp58QZXedIOIHH9H6bEwC6iEOQrBN5QT6UZHSYItGeXljCLW575O88HfQgt5KBHaoUEqThfIAhQKERppamn4c_XRYHQqA02ZKovS9YkDPXvgfQh5UhI6YvgKf4Zko5NKmqKT6IlvYYTKEPbQQ6Tsdm7bJAwO0ZVZDE2CoTSGFZdQ2NyhsK3iAk-&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:07:12Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine7.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:07:11 GMT
+Server: YTS/1.20.13
+Age: 2
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine7.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:07:11 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '2',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 167
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 168
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 172
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:07:12 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 191
+[07-May-2013 06:08:33 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:08:35 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:12:52 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:12:54 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:13:01 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:13:01 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:02 America/Los_Angeles] Fetching https://api.login.yahoo.com/oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=cbd2c07b8173a2264f6d5bdb1534fbff&oauth_signature=C1wu7MppwoeBL%2FLSYXX%2BCkUrmuA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932381&oauth_token=ER5yNtBu3AbZm_DJcGbvL5yK..9g_eYbjAT0klSx_ee3kokx06RnMNgH9sHI_oZIIB5rP6dXr61On4.8eIIaY5_VweJFZm.7HJtR6buDM_s47knoKFSLW10Cz_h2DYRlbnInYrIAUEzyGfmLkT6OeEfpnZ01pMbArH8V8XnvDJrH8MjKnLSQcCKN8D9rILa8pbSzj2wQqjeAwxB9ljIaJ7xvek9zshBW&oauth_version=1.0, method=GET, headers=array (
+), response=array (
+  'url' => 'https://api.login.yahoo.com/oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=cbd2c07b8173a2264f6d5bdb1534fbff&oauth_signature=C1wu7MppwoeBL%2FLSYXX%2BCkUrmuA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932381&oauth_token=ER5yNtBu3AbZm_DJcGbvL5yK..9g_eYbjAT0klSx_ee3kokx06RnMNgH9sHI_oZIIB5rP6dXr61On4.8eIIaY5_VweJFZm.7HJtR6buDM_s47knoKFSLW10Cz_h2DYRlbnInYrIAUEzyGfmLkT6OeEfpnZ01pMbArH8V8XnvDJrH8MjKnLSQcCKN8D9rILa8pbSzj2wQqjeAwxB9ljIaJ7xvek9zshBW&oauth_version=1.0',
+  'content_type' => 'text/plain; charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 407,
+  'request_size' => 698,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.612009,
+  'namelookup_time' => 0.258556,
+  'connect_time' => 0.306165,
+  'pretransfer_time' => 0.430958,
+  'size_upload' => 0,
+  'size_download' => 1034,
+  'speed_download' => 1689,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.611862,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.136.223.192',
+  'primary_port' => 443,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 60351,
+  'redirect_url' => '',
+  'request_header' => 'GET /oauth/v2/get_token?oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=cbd2c07b8173a2264f6d5bdb1534fbff&oauth_signature=C1wu7MppwoeBL%2FLSYXX%2BCkUrmuA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932381&oauth_token=ER5yNtBu3AbZm_DJcGbvL5yK..9g_eYbjAT0klSx_ee3kokx06RnMNgH9sHI_oZIIB5rP6dXr61On4.8eIIaY5_VweJFZm.7HJtR6buDM_s47knoKFSLW10Cz_h2DYRlbnInYrIAUEzyGfmLkT6OeEfpnZ01pMbArH8V8XnvDJrH8MjKnLSQcCKN8D9rILa8pbSzj2wQqjeAwxB9ljIaJ7xvek9zshBW&oauth_version=1.0 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: api.login.yahoo.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => 'oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_token_secret=16ca0ed7d62b8c8e318ce96ce0b21ba73cec9c0e&oauth_expires_in=3600&oauth_session_handle=AC37iFH1iQBpuE7rfI_Mav19jZh_j1jfQT7Vz1bYoFpZP74-&oauth_authorization_expires_in=779551265&xoauth_yahoo_guid=37VOXLAWPDYLZ3N3D4ICUVUTDE',
+  'response_header' => 'HTTP/1.1 200 OK
+Date: Tue, 07 May 2013 13:13:02 GMT
+P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/plain; charset=utf-8
+Cache-Control: private',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'Date' => 'Tue, 07 May 2013 13:13:02 GMT',
+    'P3P' => 'policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"',
+    'Vary' => 'Accept-Encoding',
+    'Connection' => 'close',
+    'Transfer-Encoding' => 'chunked',
+    'Content-Type' => 'text/plain; charset=utf-8',
+    'Cache-Control' => 'private',
+  ),
+)
+[07-May-2013 06:13:02 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:02 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=e4c797448e8ca9ee19b9642cae29616f&oauth_signature=gShn3CnNaye493vUqwHGkGzhjQ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=e4c797448e8ca9ee19b9642cae29616f&oauth_signature=gShn3CnNaye493vUqwHGkGzhjQ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1391,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.236773,
+  'namelookup_time' => 0.013028,
+  'connect_time' => 0.060898,
+  'pretransfer_time' => 0.061024,
+  'size_upload' => 0,
+  'size_download' => 286,
+  'speed_download' => 1207,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.236523,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 48753,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=e4c797448e8ca9ee19b9642cae29616f&oauth_signature=gShn3CnNaye493vUqwHGkGzhjQ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:13:02Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:13:02Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine7.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:01 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine7.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:01 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:02 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:03 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0b319fd2d9f3d776ed59f751e7a96ac3&oauth_signature=udDJ5%2B3RWzgs2YVKUWv5Fxxqe6s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0b319fd2d9f3d776ed59f751e7a96ac3&oauth_signature=udDJ5%2B3RWzgs2YVKUWv5Fxxqe6s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1408,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.379386,
+  'namelookup_time' => 3.5E-5,
+  'connect_time' => 0.047295,
+  'pretransfer_time' => 0.047345,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 276,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.379255,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 48755,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=0b319fd2d9f3d776ed59f751e7a96ac3&oauth_signature=udDJ5%2B3RWzgs2YVKUWv5Fxxqe6s%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932382&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:03Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine8.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:03 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine8.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:03 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:03 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=5cf77148b967c53fb316455d640cf48e&oauth_signature=oOLaKATHqMPCmDNcQcILB0YeM0k%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932383&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=5cf77148b967c53fb316455d640cf48e&oauth_signature=oOLaKATHqMPCmDNcQcILB0YeM0k%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932383&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1415,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.19058,
+  'namelookup_time' => 3.4E-5,
+  'connect_time' => 0.047502,
+  'pretransfer_time' => 0.047584,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 550,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.190451,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 48757,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=5cf77148b967c53fb316455d640cf48e&oauth_signature=oOLaKATHqMPCmDNcQcILB0YeM0k%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932383&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:03Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:02 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:02 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 167
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 168
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 172
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:13:03 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 191
+[07-May-2013 06:13:04 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:13:04 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:04 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=313f5562500470294efb0a6c4a524d2d&oauth_signature=Wn215bh2HKnM1uFxJSPTfvs%2BdQI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=313f5562500470294efb0a6c4a524d2d&oauth_signature=Wn215bh2HKnM1uFxJSPTfvs%2BdQI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1393,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.35108,
+  'namelookup_time' => 0.008496,
+  'connect_time' => 0.092191,
+  'pretransfer_time' => 0.092287,
+  'size_upload' => 0,
+  'size_download' => 286,
+  'speed_download' => 814,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.350826,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 38277,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=313f5562500470294efb0a6c4a524d2d&oauth_signature=Wn215bh2HKnM1uFxJSPTfvs%2BdQI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:13:04Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:13:04Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine9.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:04 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine9.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:04 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:04 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:08 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b5f71028067398719be526118ce6d204&oauth_signature=CXTyTZfIwn8Ann%2FbkXfqfeX1jJ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b5f71028067398719be526118ce6d204&oauth_signature=CXTyTZfIwn8Ann%2FbkXfqfeX1jJ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1408,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 3.765673,
+  'namelookup_time' => 3.2E-5,
+  'connect_time' => 0.083505,
+  'pretransfer_time' => 0.083588,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 27,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 3.765529,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 38282,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b5f71028067398719be526118ce6d204&oauth_signature=CXTyTZfIwn8Ann%2FbkXfqfeX1jJ0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932384&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:08Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:08 GMT
+Server: YTS/1.20.13
+Age: 4
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:08 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '4',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:08 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=6baa05e68df63bb75a16c3323c1271fa&oauth_signature=2JOXAjZdTOBPE4c%2BAdImGGfjrHg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932388&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=6baa05e68df63bb75a16c3323c1271fa&oauth_signature=2JOXAjZdTOBPE4c%2BAdImGGfjrHg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932388&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1417,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.269011,
+  'namelookup_time' => 3.0E-5,
+  'connect_time' => 0.084162,
+  'pretransfer_time' => 0.084233,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 390,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.268872,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 38330,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=6baa05e68df63bb75a16c3323c1271fa&oauth_signature=2JOXAjZdTOBPE4c%2BAdImGGfjrHg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932388&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:08Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine9.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:07 GMT
+Server: YTS/1.20.13
+Age: 1
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine9.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:07 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '1',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 166
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 167
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 168
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 172
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:13:08 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 191
+[07-May-2013 06:13:46 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:13:46 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:46 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=81c4bf32cb590e16b5b06474e43ec870&oauth_signature=U%2F7NFPncuIRRolaMh%2FAfMEVMhoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=81c4bf32cb590e16b5b06474e43ec870&oauth_signature=U%2F7NFPncuIRRolaMh%2FAfMEVMhoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1395,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.259951,
+  'namelookup_time' => 0.019179,
+  'connect_time' => 0.066991,
+  'pretransfer_time' => 0.067093,
+  'size_upload' => 0,
+  'size_download' => 285,
+  'speed_download' => 1096,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.258934,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 49130,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=81c4bf32cb590e16b5b06474e43ec870&oauth_signature=U%2F7NFPncuIRRolaMh%2FAfMEVMhoA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:13:46Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:13:46Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine2.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:46 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine2.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:46 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:46 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:47 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=3621d8291edfe04df663e23cd2820aaa&oauth_signature=3ZPM9Y8%2FjJgZJS%2FwKg6WuRQKIsI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=3621d8291edfe04df663e23cd2820aaa&oauth_signature=3ZPM9Y8%2FjJgZJS%2FwKg6WuRQKIsI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1410,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.293326,
+  'namelookup_time' => 3.3E-5,
+  'connect_time' => 0.047396,
+  'pretransfer_time' => 0.047449,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 357,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.29319,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 49133,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=3621d8291edfe04df663e23cd2820aaa&oauth_signature=3ZPM9Y8%2FjJgZJS%2FwKg6WuRQKIsI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932426&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:47Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:13:47 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:13:47 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:13:47 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b642812a342be29ba73afcd7aa6626ce&oauth_signature=eAQAGKPfWqqFiiW1z6d%2F88p5J1Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932427&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b642812a342be29ba73afcd7aa6626ce&oauth_signature=eAQAGKPfWqqFiiW1z6d%2F88p5J1Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932427&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 280,
+  'request_size' => 1417,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.16489,
+  'namelookup_time' => 3.4E-5,
+  'connect_time' => 0.047631,
+  'pretransfer_time' => 0.047695,
+  'size_upload' => 0,
+  'size_download' => 84,
+  'speed_download' => 509,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.16478,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 49134,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=b642812a342be29ba73afcd7aa6626ce&oauth_signature=eAQAGKPfWqqFiiW1z6d%2F88p5J1Q%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367932427&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:13:47Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine10.yql.gq1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Date: Tue, 07 May 2013 13:13:47 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine10.yql.gq1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Date' => 'Tue, 07 May 2013 13:13:47 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 170
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 171
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 178
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 178
+[07-May-2013 06:13:47 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 194
+[07-May-2013 06:32:55 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[07-May-2013 06:32:55 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:32:55 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=91dd56714bd9909e1b93d8951931a635&oauth_signature=%2FOsIu3U2bdxy6jH%2BtGzVMJ%2B6rJ4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=91dd56714bd9909e1b93d8951931a635&oauth_signature=%2FOsIu3U2bdxy6jH%2BtGzVMJ%2B6rJ4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1397,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.359144,
+  'namelookup_time' => 0.000924,
+  'connect_time' => 0.08482,
+  'pretransfer_time' => 0.084896,
+  'size_upload' => 0,
+  'size_download' => 285,
+  'speed_download' => 793,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.358398,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 47229,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=91dd56714bd9909e1b93d8951931a635&oauth_signature=%2FOsIu3U2bdxy6jH%2BtGzVMJ%2B6rJ4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":1,"created":"2013-05-07T13:32:55Z","lang":"en-US","results":{"profile":{"guid":"37VOXLAWPDYLZ3N3D4ICUVUTDE","created":"2013-05-07T13:32:55Z","image":{"height":"192","imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":"192"},"memberSince":"2013-04-29T06:12:37Z","nickname":"Jy","profileUrl":"http://profile.yahoo.com/37VOXLAWPDYLZ3N3D4ICUVUTDE","isConnected":"false"}}}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine1.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:32:55 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine1.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:32:55 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:32:55 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:32:58 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=63f6732e39bec48a482dc4d72bb67b3f&oauth_signature=ir5mWBTgP0igVAFVFGEDdxali08%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=63f6732e39bec48a482dc4d72bb67b3f&oauth_signature=ir5mWBTgP0igVAFVFGEDdxali08%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1406,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 3.266427,
+  'namelookup_time' => 4.6E-5,
+  'connect_time' => 0.086557,
+  'pretransfer_time' => 0.086641,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 32,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 3.266282,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 47230,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=63f6732e39bec48a482dc4d72bb67b3f&oauth_signature=ir5mWBTgP0igVAFVFGEDdxali08%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933575&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:32:58Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine7.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:32:58 GMT
+Server: YTS/1.20.13
+Age: 3
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine7.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:32:58 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '3',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:32:58 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[07-May-2013 06:32:59 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=30721e00b25c4b3a6bc02c9b336bfb3b&oauth_signature=uu9Gkbr1O2JBHq%2FDc1He5dOjRew%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933578&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=30721e00b25c4b3a6bc02c9b336bfb3b&oauth_signature=uu9Gkbr1O2JBHq%2FDc1He5dOjRew%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933578&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/json;charset=utf-8',
+  'http_code' => 200,
+  'header_size' => 326,
+  'request_size' => 1417,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.321339,
+  'namelookup_time' => 5.2E-5,
+  'connect_time' => 0.085282,
+  'pretransfer_time' => 0.085348,
+  'size_upload' => 0,
+  'size_download' => 105,
+  'speed_download' => 326,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.321196,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '98.138.243.55',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 47259,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=30721e00b25c4b3a6bc02c9b336bfb3b&oauth_signature=uu9Gkbr1O2JBHq%2FDc1He5dOjRew%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1367933578&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '{"query":{"count":0,"created":"2013-05-07T13:32:59Z","lang":"en-US","results":null}}',
+  'response_header' => 'HTTP/1.1 200 OK
+X-YQL-Host: engine4.yql.ne1.yahoo.com
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Tue, 07 May 2013 13:32:59 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '200',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine4.yql.ne1.yahoo.com',
+    'Access-Control-Allow-Origin' => '*',
+    'Cache-Control' => 'no-cache',
+    'Content-Type' => 'application/json;charset=utf-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Tue, 07 May 2013 13:32:59 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$profileUrl in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$image in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$givenName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 170
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$familyName in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 171
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$location in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 175
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$status in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 178
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 178
+[07-May-2013 06:32:59 America/Los_Angeles] PHP Notice:  Undefined property: stdClass::$nickname in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 194
+[08-May-2013 08:38:05 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[08-May-2013 08:38:05 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[08-May-2013 08:38:05 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=d0fa1d4b3bb2a758fa7d9a1027fc980e&oauth_signature=k9Hw9JIJ%2BI%2FVhehhpoQQUZqUJ%2Bw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=d0fa1d4b3bb2a758fa7d9a1027fc980e&oauth_signature=k9Hw9JIJ%2BI%2FVhehhpoQQUZqUJ%2Bw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/xml;charset=UTF-8',
+  'http_code' => 401,
+  'header_size' => 356,
+  'request_size' => 1397,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.101849,
+  'namelookup_time' => 0.000958,
+  'connect_time' => 0.048718,
+  'pretransfer_time' => 0.048828,
+  'size_upload' => 0,
+  'size_download' => 251,
+  'speed_download' => 2464,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.101562,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 44071,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=d0fa1d4b3bb2a758fa7d9a1027fc980e&oauth_signature=k9Hw9JIJ%2BI%2FVhehhpoQQUZqUJ%2Bw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.profile%20where%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><yahoo:error xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://yahoo.com" xml:lang="en-US"><yahoo:description>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:description><yahoo:detail>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:detail></yahoo:error>',
+  'response_header' => 'HTTP/1.1 401 Unauthorized
+X-YQL-Host: engine8.yql.gq1.yahoo.com
+WWW-Authenticate: OAuth oauth_problem="token_expired", realm="yahooapis.com"
+Content-Type: application/xml;charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Wed, 08 May 2013 15:38:05 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '401',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine8.yql.gq1.yahoo.com',
+    'WWW-Authenticate' => 'OAuth oauth_problem="token_expired", realm="yahooapis.com"',
+    'Content-Type' => 'application/xml;charset=UTF-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Wed, 08 May 2013 15:38:05 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[08-May-2013 08:38:05 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[08-May-2013 08:38:06 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=355d12128b275cee55b2d202f68328f1&oauth_signature=vIyS%2BgKZ8xi%2BF6jdpZPliRfNHKA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=355d12128b275cee55b2d202f68328f1&oauth_signature=vIyS%2BgKZ8xi%2BF6jdpZPliRfNHKA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/xml;charset=UTF-8',
+  'http_code' => 401,
+  'header_size' => 356,
+  'request_size' => 1410,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.101793,
+  'namelookup_time' => 4.2E-5,
+  'connect_time' => 0.047428,
+  'pretransfer_time' => 0.047496,
+  'size_upload' => 0,
+  'size_download' => 251,
+  'speed_download' => 2465,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.101608,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 44073,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=355d12128b275cee55b2d202f68328f1&oauth_signature=vIyS%2BgKZ8xi%2BF6jdpZPliRfNHKA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027485&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.updates%280%2C%2020%29%20WHERE%20guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><yahoo:error xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://yahoo.com" xml:lang="en-US"><yahoo:description>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:description><yahoo:detail>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:detail></yahoo:error>',
+  'response_header' => 'HTTP/1.1 401 Unauthorized
+X-YQL-Host: engine6.yql.gq1.yahoo.com
+WWW-Authenticate: OAuth oauth_problem="token_expired", realm="yahooapis.com"
+Content-Type: application/xml;charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Wed, 08 May 2013 15:38:05 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '401',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine6.yql.gq1.yahoo.com',
+    'WWW-Authenticate' => 'OAuth oauth_problem="token_expired", realm="yahooapis.com"',
+    'Content-Type' => 'application/xml;charset=UTF-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Wed, 08 May 2013 15:38:05 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[08-May-2013 08:38:06 America/Los_Angeles] PHP Notice:  curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/Yahoo/YahooCurl.class.php on line 122
+[08-May-2013 08:38:06 America/Los_Angeles] Fetching http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=f1d6c0c4ee0dc8557f64284bd7c366f2&oauth_signature=0ATFi6gZJ0G%2BUcqg8ELskBmcUqA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027486&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22, method=GET, headers=array (
+), response=array (
+  'url' => 'http://query.yahooapis.com/v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=f1d6c0c4ee0dc8557f64284bd7c366f2&oauth_signature=0ATFi6gZJ0G%2BUcqg8ELskBmcUqA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027486&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22',
+  'content_type' => 'application/xml;charset=UTF-8',
+  'http_code' => 401,
+  'header_size' => 356,
+  'request_size' => 1417,
+  'filetime' => -1,
+  'ssl_verify_result' => 0,
+  'redirect_count' => 0,
+  'total_time' => 0.099213,
+  'namelookup_time' => 4.2E-5,
+  'connect_time' => 0.047487,
+  'pretransfer_time' => 0.04757,
+  'size_upload' => 0,
+  'size_download' => 251,
+  'speed_download' => 2529,
+  'speed_upload' => 0,
+  'download_content_length' => -1,
+  'upload_content_length' => 0,
+  'starttransfer_time' => 0.099073,
+  'redirect_time' => 0,
+  'certinfo' => 
+  array (
+  ),
+  'primary_ip' => '206.190.36.34',
+  'primary_port' => 80,
+  'local_ip' => '173.254.28.95',
+  'local_port' => 44074,
+  'redirect_url' => '',
+  'request_header' => 'GET /v1/yql?env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&oauth_consumer_key=dj0yJmk9SjFaUFB4NjEyYWdVJmQ9WVdrOVpXMXNNVEkyTjJNbWNHbzlNVGd6TXpZMU56STJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD01Mw--&oauth_nonce=f1d6c0c4ee0dc8557f64284bd7c366f2&oauth_signature=0ATFi6gZJ0G%2BUcqg8ELskBmcUqA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1368027486&oauth_token=A%3D8gds.sLNg19UGFnOAhCJ4kRHFf7moiY6XQ49hTqOLtkCrzpiFpphELR9VzROtjM4yk4bY2ZPJ3Dmm4ppzrPU9M_KFCVwA_pY9AkSzdIVB0vWVRGI5y7ujCjGYHLaTDuhjc1WS1tNNyNL_6m86zNoVgij8M7r6rZFWmiQFjoBoOeDb.U1N.zbAfTAfI3sI7xFz9wBt4ePxKT9.QYD0Ydwmxd0xMMTfZl2TDq1KKLVvoxAUuzHstGvLWrK1duIULqBHWCirPOTXXi2ey4rD5NLmySBv5nUExJhcaviOqUD03s0VHqOsPU3X95swiUgLybhAf2omJ7evyCDIixVjY8EQjn_rfQKJKITkjTinniI6f2IevaLQ4U7lXBJbeFotanSgUvayuC5Qc9_dnKdiQt0DoWSg8nkl4IwQGnTA_UgX1sIOpQ4it.epZUVbw5p_DlYG7U1vG.aG_YBNjMSB8r4UIYTTDYTpRV4PscNbCIcnQ5EgnXQvWVrFygzj4XiIg4YpzLOrgU4xlJbgZHLRRce1CSWs4iduK2Htlu.PLcxXT_cbM5bTkCfmLTg67RrGMmJmf6gLYi20M9YorDnDDupvxBJcBfY71OuzlJB21YH70OFTQh_5jFKAr9a3M9sdSHShTLs8puEkS95uBpV3DfkGlCC0AklTBi0PaZ6rjHhzkBA0txayaBkMIqrDJku7WYXi2UFu.dJ1yTea.E5gHbKPHRmpIDgLbqJq82P46lN3bsX46PnPfRmn4boNSJ.YX2Y687X2WxyMCIH&oauth_version=1.0&q=SELECT%20%2A%20FROM%20social.connections%280%2C1000%29%20WHERE%20owner_guid%3D%2237VOXLAWPDYLZ3N3D4ICUVUTDE%22 HTTP/1.1
+User-Agent: yos-social-php (1.0.0) / PHP (5.4.13)
+Host: query.yahooapis.com
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+',
+  'response_body' => '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><yahoo:error xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://yahoo.com" xml:lang="en-US"><yahoo:description>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:description><yahoo:detail>Please provide valid credentials. OAuth oauth_problem=&quot;token_expired&quot;, realm=&quot;yahooapis.com&quot;</yahoo:detail></yahoo:error>',
+  'response_header' => 'HTTP/1.1 401 Unauthorized
+X-YQL-Host: engine6.yql.gq1.yahoo.com
+WWW-Authenticate: OAuth oauth_problem="token_expired", realm="yahooapis.com"
+Content-Type: application/xml;charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Wed, 08 May 2013 15:38:06 GMT
+Server: YTS/1.20.13
+Age: 0
+Transfer-Encoding: chunked
+Connection: keep-alive',
+  'response_code' => '401',
+  'response_headers' => 
+  array (
+    'X-YQL-Host' => 'engine6.yql.gq1.yahoo.com',
+    'WWW-Authenticate' => 'OAuth oauth_problem="token_expired", realm="yahooapis.com"',
+    'Content-Type' => 'application/xml;charset=UTF-8',
+    'Content-Encoding' => 'gzip',
+    'Vary' => 'Accept-Encoding',
+    'Date' => 'Wed, 08 May 2013 15:38:06 GMT',
+    'Server' => 'YTS/1.20.13',
+    'Age' => '0',
+    'Transfer-Encoding' => 'chunked',
+    'Connection' => 'keep-alive',
+  ),
+)
+[08-May-2013 08:38:06 America/Los_Angeles] PHP Notice:  Trying to get property of non-object in /home5/bettern5/public_html/login-with/yos-social-php5-master/examples/simpleauth/simpleauth.php on line 169
+[08-May-2013 08:38:10 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83
+[08-May-2013 08:38:10 America/Los_Angeles] PHP Strict Standards:  Non-static method Auth_OpenID::arrayGet() should not be called statically in /home5/bettern5/public_html/login-with/yos-social-php5-master/lib/OpenID/Auth/OpenID/Message.php on line 83

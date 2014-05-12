@@ -1,0 +1,8 @@
+1)Edit common.inc.php to input your consumer key , consumer secret and Application ID.
+
+2) Run the sql file supplied to create your database
+
+3)Edit database_connection.php to enter your database connection details
+
+
+Downloaded from Youhack.me
